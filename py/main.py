@@ -66,17 +66,17 @@ topbar_frame.grid(row=0, columnspan=3)
 # columns
 to_do_label = Label(right_frame, text="A fazer", relief=RAISED, bg="#252525", fg="#fff", font="bold")
 to_do_label.grid(row=1, column=to_do_column, padx=5, pady=5, ipadx=10, ipady=2)
-to_do_frame = Frame(right_frame, bg="red", width=300)
+to_do_frame = Frame(right_frame, bg="#252525", width=300)
 to_do_frame.grid(row=2, column=to_do_column, padx=5, sticky=N)
 
 progress_label = Label(right_frame, text="Em andamento", relief=RAISED, bg="#252525", fg="#fff", font="bold")
 progress_label.grid(row=1, column=progress_column, padx=5, pady=5, ipadx=10, ipady=2)
-progress_frame = Frame(right_frame, bg="red", width=300)
+progress_frame = Frame(right_frame, bg="#252525", width=300)
 progress_frame.grid(row=2, column=progress_column, padx=5, sticky=N)
 
 completed_label = Label(right_frame, text="Concluído", relief=RAISED, bg="#252525", fg="#fff", font="bold")
 completed_label.grid(row=1, column=completed_column, padx=5, pady=5, ipadx=10, ipady=2)
-completed_frame = Frame(right_frame, bg="red", width=300)
+completed_frame = Frame(right_frame, bg="#252525", width=300)
 completed_frame.grid(row=2, column=completed_column, padx=5, sticky=N)
 
 # init load tasks
