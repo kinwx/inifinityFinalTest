@@ -1,0 +1,53 @@
+@media (max-width: 1024px) {
+    .nav-div, .hero {
+        width: 95vw;
+        margin: 0 auto;
+    }
+    .section {
+        align-items: start;
+        padding-top: 1rem;
+    }
+    .main {
+        height: max-content;
+    }
+    .hero {
+        height: 662px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 568px) {
+    /* .main {
+        padding-bottom: 2rem;
+    } */
+    .hero {
+        height: max-content;
+    }
+    .crypto-list {
+        max-height: 312px;
+    }
+    .header-hero {
+        border-bottom: 1px solid black;
+        border-radius: 1rem;
+    }
+    .section-hero {
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+    }
+    .details-and-trade {
+        grid-row-gap: .8rem;
+        padding: 1rem .8rem;
+        border-top: 1px solid black;
+        border-radius: 1rem;
+    }
+}
+
+
+@media (max-width: 452px) {
+    .header-hero > input {
+        width: 100%;
+    }
+    .mini-card-component {
+        width: 100%;
+    }
+}

@@ -1,0 +1,78 @@
+<div class="fake-component">
+    <div class="crypto-logo">
+        <div class="fake-image"></div>
+    </div>
+    <div class="labels">
+        <h3 class="title-crypto">Bitcoin<span>/btc</span></h3>
+        <p class="price-crypto"><span>current quote:</span> 316.000 BRL</p>
+    </div>
+</div>
+<div class="fake-component">
+    <div class="crypto-logo">
+        <div class="fake-image"></div>
+    </div>
+    <div class="labels">
+        <h3 class="title-crypto">Bitcoin<span>/btc</span></h3>
+        <p class="price-crypto"><span>current quote:</span> 316.000 BRL</p>
+    </div>
+</div>
+<div class="fake-component">
+    <div class="crypto-logo">
+        <div class="fake-image"></div>
+    </div>
+    <div class="labels">
+        <h3 class="title-crypto">Bitcoin<span>/btc</span></h3>
+        <p class="price-crypto"><span>current quote:</span> 316.000 BRL</p>
+    </div>
+</div>                        
+<div class="fake-component">
+    <div class="crypto-logo">
+        <div class="fake-image"></div>
+    </div>
+    <div class="labels">
+        <img src="" alt="" srcset="">
+        <h3 class="title-crypto">Bitcoin<span>/btc</span></h3>
+        <p class="price-crypto"><span>current quote:</span> 316.000 BRL</p>
+    </div>
+</div>     
+
+{
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({"currency": "brl"})
+            });
+            console.log(request)
+
+
+
+<!-- <div class="card-details">
+                                <div class="card-logo-label">
+                                    <img src="https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1696501400" alt="logo-crypto">
+                                    <h3 class="title-card">Bitcoin<span>/btc</span></h3>
+                                </div>
+                                <p class="description-card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laboriosam ullam, suscipit architecto error ipsum. Molestiae labore harum dolore illum, expedita debitis maiores. Eveniet rem quidem, sunt totam nisi cumque!</p>
+                                <div class="infos-card">
+                                    <strong class="txt-info">last update: <span>2024-05-08</span></strong>
+                                    <strong class="txt-info">current quote: <span style="color: green;">316.000</span></strong>
+                                    <strong class="txt-info">in currency: <span>BRL</span></strong>
+                                </div>
+                            </div> -->
+
+.currency-select > button {
+                    height: 1.8rem;
+                    width: 1.8rem;
+                    border-radius: 50%;
+                    border: none;
+                    background-color: #fff;
+                    cursor: pointer;
+                    transition: .4s ease;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .currency-select > button:hover {
+                        background-color: rgba(0, 0, 0, .1);
+                    }
